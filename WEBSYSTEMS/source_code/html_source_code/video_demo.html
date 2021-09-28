@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Video/Audio Demo</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <h1>HTML Multimedia Elements Demo</h1>
+
+    <header id="page_header">
+        <nav id="nav_bar">
+
+            <menu>
+                <li><a href="#multimedia"> HTML Multimedia</a></li>
+                <li><a href="#tables"> HTML Tables</a></li>
+                <li><a href="#usefultags"> Some useful tags</a></li>
+            </menu>
+        </nav>
+
+        
+    
+    </header>
+
+    <main id="page_main_content">
+        <section id="multimedia">
+            <div id="audio_files">
+                <h2> Demo of Including an Audio File </h2>
+                <audio src="audio/file_example_MP3_2MG.mp3" controls>
+                    Audio File Not supported by your browser.
+                </audio>
+                
+            </div>
+            <hr>
+
+            <div id="video_files">
+                <h2> Demo of Including a Video File </h2>
+                <video src="videos/file_example_MOV_1280_1_4MB.mov" controls width="30%">
+                    Your Browser does not support the video format.
+                
+                </video>
+                 
+                <picture>
+
+                </picture>
+
+            </div>
+
+        </section>
+
+        <section id="tables">
+            <h2>Demo on HTML tables.</h2> 
+            <p>Below is an example of an HTML Table.</p>
+            <table id="html_table table1" border="2">
+                <tr>
+                    <th>Menu ID</th>
+                    <th>Menu Item</th>
+                    <th>Price</th>
+                </tr>
+                <!--Row2-->
+                <tr>
+                    <td>1</td>
+                    
+                    <td>Pizza</td>
+                        
+                    <td>&#36;10.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gnochhi</td>
+                    <td>&#36;12.99</td>
+
+                </tr>
+            </table>
+            <br>
+
+            <table id="html_table_2" border="2">
+                <tr>
+                    <th>Child's Name</th>
+                    <th>Parent's Names</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Mike</td> <td>Mary</td>
+
+                </tr>
+                <tr> 
+                    <td> Jack </td>
+                </tr>
+
+            </table>
+            <hr>
+        </section>
+
+        <section id="useful_tags">
+            <h2> Some more useful HMTL tags.</h2>
+            <h3>Some Block Tags</h3>
+            <h4>The blockquote element.</h4>
+            <blockquote cite="https://google.com">
+                "YOLO" - Internet.
+            </blockquote>
+
+            <h4>The summary and details element.</h4>
+            <summary>
+                Click here for game score.
+                <details>Rams 50:2 Lions</details>
+            </summary>
+
+
+            <h3>Some Inline Tags</h3>
+            <h4>Cite Tag</h4>
+            <cite>HomePage of OU is www.oakland.edu</cite>
+
+            <h4>The Abbreviation Tag</h4>
+            Few of the course codes in OU are <abbr title="Computer Science"> CSI, Physics</abbr>
+
+
+            <h4> Subscript and superscript</h4>
+            <p>a<sup>2</sup> + b<sup>2</sup> + 2a*b = (a+b)<sup>2</sup></p>
+            <p>The Molecular Formula of water is H <sub>2</sub> O</p>
+            
+            <h4> Code Element </h4>
+            <code>C++ coding </code> <br>
+            <code>
+                cout &lt; &lt; Hello, world;
+            </code>
+
+            <h4> Time Tag </h4>
+            Classes start this fall from <time datetime="2021-09-02"> SEP 02 </time>
+
+            <h3> Tags that require javascript to be fully functional</h3>
+            <h4> Button Tag</h4>
+            <button type="menu"> <a href="#page_header"> Go to top. </a> </button>
+            <h4> The BDO tag </h4>
+            <bdo dir="ltr"> This is left to right.</bdo> <br>
+            <bdo dir="rtr"> This is right to left.</bdo>
+
+            <h4> The iFrame element </h4>
+            <iframe src="https://www.oakland.edu">
+                </iframe>
+
+                <h4> The Progress and meter elements.</h4>
+                <h5> The Progress element</h5>
+                <label for="survey_progress"> Survey Progress</label>
+                <progress id="survey_progress" min="2" max="10"></progress>
+                <meter></meter>
+        </section>
+
+
+    </main>
+    <br><br>
+
+    <footer id="page_footer">
+        <address>
+            115 library Drive, Engineering Center <br>
+            Oakland University, Rochester Michigan, 48309.
+        </address>
+    </footer>
+</body>
+</html>

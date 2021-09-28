@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> question3_Chown </title>
+    </head>
+    
+    <body>
+        <header>
+           <h1> This is the header grouping for this page. </h1>
+           <p> This is filler text </p>
+        </header>
+
+        <main>
+            <h2> This is the main grouping. </h2>
+            <p> This is the filler text for the main grouping </p>
+
+        </main>
+
+        <footer>
+            <h3> This is the footer grouping. </h3>
+            <p> This is the filler text for the footer group. </p>
+        </footer>
+    </body>
+
+
+
+
+
+
+
+</html>

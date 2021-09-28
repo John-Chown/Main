@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+<h1> This is the header outside of the division </h1>
+<p> this is the paragraph outside of the division </p>
+    <div>
+        <h2> this is the header inside of the division </h2>
+        <p> This is the paragrah in the division</p>
+    </div>
+
+    <div> 
+        <img src="astro_color.jpg" alt="Colorfull Astronaut"> 
+    </div>
+
+</body>
